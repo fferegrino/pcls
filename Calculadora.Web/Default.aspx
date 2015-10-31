@@ -1,34 +1,22 @@
-﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Calculadora.Web.Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Calculadora.Web.Default" %>
 
+<asp:Content runat="server" ID="FeaturedContent" ContentPlaceHolderID="FeaturedContent">
+</asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <hgroup class="title">
-        <h1><%: Title %>.</h1>
-        <h2>Your app description page.</h2>
-    </hgroup>
-
-    <article>
-        <p>        
-            Use this area to provide additional information.
-        </p>
-
-        <p>        
-            Use this area to provide additional information.
-        </p>
-
-        <p>        
-            Use this area to provide additional information.
-        </p>
-    </article>
-
-    <aside>
-        <h3>Aside Title</h3>
-        <p>        
-            Use this area to provide additional information.
-        </p>
-        <ul>
-            <li><a runat="server" href="~/">Home</a></li>
-            <li><a runat="server" href="~/About">About</a></li>
-            <li><a runat="server" href="~/Contact">Contact</a></li>
-        </ul>
-    </aside>
+    <h3>We suggest the following:</h3>
+    <ol class="round">
+        <li class="one">
+            <h5>Primer número:</h5>
+            <asp:TextBox ID="tbNumero1" runat="server"></asp:TextBox>
+        </li>
+        <li class="two">
+            <h5>Segundo número:</h5>
+            <asp:TextBox ID="tbNumero2" runat="server"></asp:TextBox>
+        </li>
+        <li class="three">
+            <asp:Button Text="Calcular" OnClick="Button_Click" ID="button" runat="server"></asp:Button>
+            <h5>Resultado</h5>
+            <asp:Label ID="resultado" runat="server"></asp:Label>
+        </li>
+    </ol>
 </asp:Content>

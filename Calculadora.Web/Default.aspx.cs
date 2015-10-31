@@ -13,5 +13,16 @@ namespace Calculadora.Web
         {
 
         }
+
+        protected void Button_Click(object sender, EventArgs e)
+        {
+
+            var calculadora = new Calculadora(); 
+            
+            calculadora.SetPrimerNumero(Int32.Parse(tbNumero1.Text));
+            calculadora.SetSegundoNumero(Int32.Parse(tbNumero2.Text));
+
+            resultado.Text = calculadora.Calcula().ToString();
+        }
     }
 }
