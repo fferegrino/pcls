@@ -11,7 +11,6 @@ namespace PclCalculadora.Droid
     [Activity(Label = "PclCalculadora.Droid", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -19,9 +18,9 @@ namespace PclCalculadora.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            EditText editText1 = FindViewById<EditText>(Resource.Id.editText1); 
+            EditText editText1 = FindViewById<EditText>(Resource.Id.editText1);
             EditText editText2 = FindViewById<EditText>(Resource.Id.editText2);
-            TextView textView3 = FindViewById<TextView>(Resource.Id.textView3); 
+            TextView textView3 = FindViewById<TextView>(Resource.Id.textView3);
 
             Button button = FindViewById<Button>(Resource.Id.MyButton);
 

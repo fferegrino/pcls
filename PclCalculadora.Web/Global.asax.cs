@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.Routing;
 using System.Web.Security;
-using Calculadora.Web;
+using PclCalculadora.Web;
 
-namespace Calculadora.Web
+namespace PclCalculadora.Web
 {
     public class Global : HttpApplication
     {
