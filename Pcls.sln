@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "No PCL", "No PCL", "{84E00820-6BCF-4EE2-AD52-DC65015814EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "With PCL", "With PCL", "{1CEE9A87-3075-48A9-AA92-1BA48BC156AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Droid", "Calculadora.Droid\Calculadora.Droid.csproj", "{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Cli", "Calculadora.Cli\Calculadora.Cli.csproj", "{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Web", "Calculadora.Web\Calculadora.Web.csproj", "{398DCF05-1987-4B63-B228-4F19EE9D983E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PclCalculadora", "PclCalculadora\PclCalculadora.csproj", "{5428E925-26BF-459C-806C-46B3CAC7931A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398DCF05-1987-4B63-B228-4F19EE9D983E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398DCF05-1987-4B63-B228-4F19EE9D983E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398DCF05-1987-4B63-B228-4F19EE9D983E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398DCF05-1987-4B63-B228-4F19EE9D983E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5428E925-26BF-459C-806C-46B3CAC7931A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5428E925-26BF-459C-806C-46B3CAC7931A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5428E925-26BF-459C-806C-46B3CAC7931A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5428E925-26BF-459C-806C-46B3CAC7931A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6B4FCE7-A931-41E7-A7C2-E7FD60D265BF} = {84E00820-6BCF-4EE2-AD52-DC65015814EC}
+		{F8610DDF-4CEC-46C7-8C67-E723E7AC25D2} = {84E00820-6BCF-4EE2-AD52-DC65015814EC}
+		{398DCF05-1987-4B63-B228-4F19EE9D983E} = {84E00820-6BCF-4EE2-AD52-DC65015814EC}
+		{5428E925-26BF-459C-806C-46B3CAC7931A} = {1CEE9A87-3075-48A9-AA92-1BA48BC156AE}
+	EndGlobalSection
+EndGlobal
